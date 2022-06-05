@@ -1,0 +1,131 @@
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    padding: 3px 0 0 14px;
+    border-left: 1px solid #c81523;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+
+.sk_bd ul li {
+    float: left;
+    margin-right: 13px;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #c81523;
+}
+
+.sk_bd ul li a {
+    display: block;
+    height: 299px;
+}
+
+.sk_bd ul li p {
+    height: 36px;
+    padding: 0 12px;
+}
+
+.price {
+    height: 20px;
+    margin-top: 16px;
+    margin-left: 15px;
+
+}
+
+.price .xianjia {
+    font-size: 14px;
+    font-weight: 700;
+    color: #e60012;
+}
+
+.price .yuanjia {
+    font-size: 10px;
+    font-weight: 700;
+    text-decoration: line-through;
+    color: #a4a4a4;
+}
+
+.kz {
+    height: 14px;
+    margin-top: 13px;
+    margin-left: 15px;
+
+}
+
+.kz .bar {
+    display: inline-block;
+    width: 132px;
+    height: 14px;
+    margin: 0 11px 0 11px;
+    border: 1px solid red;
+    border-radius: 7px;
+}
+
+.kz .bar .bar_in {
+    display: inline-block;
+    width: 80%;
+    height: 14px;
+    background-color: #ed282e;
+    border-radius: 7px 0 0 7px;
+    transition: all .3s;
+}
+
+.bar:hover .bar_in {
+    width: 100%;
+}
+
+.sk_bd ul li button {
+    width: 100%;
+    height: 46px;
+    color: #fff;
+    background-color: #b1191a;
+    margin-top: 14px;
+}
